@@ -1,5 +1,5 @@
 function gazo610(){const container = document.getElementById('gazo610');}
-const img1 = 'kaiei_small.jpg';
+const img1 = 'keiei_small.jpg';
 const img2 = '20240721.jpg';
 if (!container) return;
 if (container.innerHTML.includes(img1))
