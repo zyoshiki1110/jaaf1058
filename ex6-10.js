@@ -1,4 +1,4 @@
-function gazo610(){const container = document.getElementById('gazo610');}
+function gazo610(){const container = document.getElementById('who610');}
 const img1 = 'keiei_small.jpg';
 const img2 = '20240721.jpg';
 if (!container) return;
