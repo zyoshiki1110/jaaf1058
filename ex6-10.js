@@ -1,7 +1,2 @@
-function gazo610(){const container = document.getElementById('who610');}
-const img1 = 'keiei_small.jpg';
-const img2 = '20240721.jpg';
-if (!container) return;
-if (container.innerHTML.includes(img1))
-{container.innerHTML = '<img src="${img2}" alt="変更後の画像">';}
-else{container.innerHTML = '<img src="${img1}" alt="最初の画像">';}
+function changeimage1(){document.getElementById("maypic").innerHTML = "<imag src='keiei_small.jpg' width='300'>";}
+function changeimage2(){document.getElementById("maypic").innerHTML = "<imag src='20240712.jpg' width='300'>";}
