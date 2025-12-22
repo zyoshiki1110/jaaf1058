@@ -10,6 +10,6 @@ document.timer.moji.value = str.substr(0,cnt+1);}
 else{
 //全て表示されたら、空文字に戻す
 document.timer.moji.value = "";}}
-functionv startfnc(){
+function startfnc(){
 //関数
 setInterval("hyoji()",1000);}
