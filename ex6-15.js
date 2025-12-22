@@ -12,4 +12,4 @@ else{
 document.timer.moji.value = "";}}
 functionv startfnc(){
 //関数
-settInterval("hyoji()",1000);}
+setInterval("hyoji()",1000);}
