@@ -1,6 +1,4 @@
-function calcBMI() {var h_cm = document.getElementById('height_cm').value;
-                    var w_kg = document.getElementById('weight_kg').value;
-                    var h_m = Number(h_cm) / 100;
-                    var weight = Number(w_kg);
-                    var bmi = weight / (h_m * h_m);
+function calcBMI() {var h = Number(document.getElementById('height_cm').value) / 100;
+                    var w = Number(document.getElementById('weight_kg').value);
+                    var bmi = w / (h * h);
                     document.getElementById('result').innerText = "あなたのBMIは" + bmi.toFixed(2) + "です";}
